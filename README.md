@@ -1,2 +1,2 @@
-# code-repo
-sharing a few of my codes
+#Read me
+This is just another read me file.
