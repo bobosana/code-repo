@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+ <head>
+  <title> Sprite </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="Bobosana">
+  <meta name="Keywords" content="Sprite">
+  <meta name="Description" content="Illustration of sprite image usage">
+ 
+ <style type="text/css">
+
+#twit:hover {
+width:72px;
+height:72px;
+background: url('./css-sprite.png');
+background-color:#fff;
+background-position:-3px -80px;
+}
+
+#fb{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:0px 0px;
+}
+
+#fb:hover{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:0px -86px;
+}
+ 
+#tw{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-86px 0px;
+}
+
+#tw:hover{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-86px -86px;
+}
+
+#in{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-172px 0px;
+}
+ 
+#in:hover{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-172px -86px;
+}
+
+#ut{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-258px 0px;
+}
+
+#ut:hover{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-258px -86px;
+}
+
+#bl{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-344px 0px;
+}
+
+#bl:hover{
+width:85px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-344px -86px;
+}
+
+#locat{
+width:180px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-436px 0px;
+}
+
+#locat:hover{
+width:180px;
+height:83px;
+background:url('social_icon_sprite.png');
+background-position:-436px -86px;
+}
+
+#list{
+margin:0px;
+padding:0px;
+}
+
+#list li{
+float:left;
+margin-right:1px;
+padding:0px;
+list-style:none;}
+
+p {
+font-family:Tahoma, Calibri;
+font-size:1.2em;
+color:#333333;
+}
+body {
+background-color:#eeeeee;
+}
+
+.content{
+margin:0 auto;
+width:980px;
+border:solid;
+overflow:auto;
+padding:5px;
+}
+ </style>
+
+ </head>
+  <body>
+  <div class="content">
+  <p>The below icons are in a single image social_icon_sprite.png</p>
+  <img src="social_icon_sprite.png"/>
+<p>The below icons are now split into individual elements</p>  
+  <ul id="list">
+  <li>
+  <div id="fb"></div>
+  </li>
+  
+  <li>
+  <div id="tw"></div>
+  </li>
+  
+  <li>
+  <div id="in"></div>
+  </li>
+  
+  <li>
+  <div id="ut"></div>
+  </li>
+
+  <li>
+  <div id="bl"></div>
+  </li>
+  
+  <li>
+  <div id="locat"></div>
+  </li>
+ </ul>
+</div>
+  </body>
+</html>
